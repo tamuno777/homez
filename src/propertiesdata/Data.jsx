@@ -1,0 +1,66 @@
+const products = [
+    {
+      id: 1,
+      images:'/prop1.png',
+      location: "2578 Folsom street, san francisco, CA, 94110",
+      type: "Private Room",
+      price: 1200,
+      bedroom: 4,
+      toilet: 2,
+      extra: "#",
+    },
+    {
+      id: 2,
+      images:'/props2.png',
+      location: "2578 Folsom street, san francisco, CA, 94110",
+      type: "Private Room",
+      price: 1200,
+      bedroom: 4,
+      toilet: 2,
+      extra: "#",
+    },
+    {
+      id: 3,
+      images:'/props3.png',
+      location: "2578 Folsom street, san francisco, CA, 94110",
+      type: "Private Room",
+      price: 1200,
+      bedroom: 4,
+      toilet: 2,
+      extra: "#",
+    },
+    {
+      id: 4,
+      images:'/props4.png',
+      location: "2578 Folsom street, san francisco, CA, 94110",
+      type: "Private Room",
+      price: 1200,
+      bedroom: 4,
+      toilet: 2,
+      extra: "#",
+    },
+    {
+      id: 5,
+      images:'/props5.png',
+      location: "2578 Folsom street, san francisco, CA, 94110",
+      type: "Private Room",
+      price: 1200,
+      bedroom: 4,
+      toilet: 2,
+      extra: "#",
+    },
+    {
+      id: 6,
+      images:'/props6.png',
+      location: "2578 Folsom street, san francisco, CA, 94110",
+      type: "Private Room",
+      price: 1200,
+      bedroom: 4,
+      toilet: 2,
+      extra: "#",
+    },
+    
+   
+  ];
+  
+  export default products;

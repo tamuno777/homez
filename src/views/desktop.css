@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+ 
+        position: relative;
+
+}
+.nav-container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 73px;
+    width: 100%;
+    left: 0%;
+    border-bottom: 1px solid gray;
+}
+.intro-container{
+background-image: url(../assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png);
+height: 45rem;  
+ /* background-blend-mode: color-burn; */
+ /* width: 100vw; */
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ margin-top: -117px;
+
+ border-bottom: 1px solid gray;
+}
+
+.link:hover{
+    text-decoration: none !important;
+    border-bottom: 3px solid white !important;
+
+}
+.intro-content{
+   padding : 120px 40px 0 40px;
+   display: flex;
+
+    /* width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+.intro-text{
+    padding: 13% 18% 0 5%;
+    color:white;
+    /* width: 584px; */
+/* height: 210px; */
+/* position: absolute;
+top: 291px;
+left: 120px; */
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 52px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -1px;
+text-align: left !important;
+
+
+}
+.intro-btn{
+    border-radius: 0 10px 10px 0 !important;
+}
+.intro-inpute{
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    text-align: end;
+    margin: 0 30px;
+}
+
+.lala{
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.img-background{
+    border-radius: 10px;
+    padding: 7%;
+    box-shadow: 0px 12px 19px 0px #00000026;
+    margin:2% 20% 18% 20%;
+    justify-self: center;
+
+} 
+.offer-container{
+    overflow: hidden;
+}
+.offer-h1 > p{
+    font-family: Inter;
+font-size: 30px;
+font-weight: 800;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.div{
+    position: relative;
+
+}
+.div::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 45px;
+    width: 24%;
+    left: 2%;
+    border-bottom: 3px solid red;
+}
+.offer-text{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+/* line-height: 35px; */
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.offer-textz{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+/* line-height: 35px; */
+letter-spacing: 0em;
+text-align: left;
+padding: 0 5%;
+
+}
+.cards{
+    box-shadow: 0px 34.06928634643555px 36.19861602783203px 0px #00000022;
+
+}
+.card-h{
+    font-family: DM Sans;
+font-size: 23px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: -0.6420748233795166px;
+text-align: left;
+
+}
+.card-p{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: -0.6420748233795166px;
+text-align: left;
+
+}
+.card-p2{
+    font-family: DM Sans;
+font-size: 26px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: -0.6420748233795166px;
+text-align: left;
+color: #F4511E;
+
+}
+.props-nav{
+    border-radius: 10px !important;
+}
+.props > p{
+    position: relative;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    /* line-height: 35px; */
+    letter-spacing: 0em;
+
+}
+.props > p::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 40px;
+    width: 30%;
+    left: 2%;
+    border-bottom: 3px solid red;
+}
+.props > button{
+   background-color: #F4511E;
+    padding: 1%;
+    border: none;
+    border-radius: 0 !important;
+    font-weight: lighter;
+}
+.nav-btn1{
+    border-radius: 10px;
+}
+.nav-btn{
+    background-color: white !important;
+    border-radius: none !important;
+    padding:7px 19px;
+    color: #F4511E;
+    font-weight: 500;
+    border: 1px solid gray;
+
+}
+.nav-btn:hover{
+    background-color: #F4511E !important;
+    color: white !important;
+    
+}
+.nav-btn2{
+    background-color: white !important;
+    color: black;
+    padding: 5px 19px;
+    border-radius:  8px  0 0 8px ;
+    border: 1px solid gray;
+    font-weight: 500;
+
+}
+.nav-btn2:hover{
+    background-color: #F4511E !important;
+    color: white !important;
+}
+.nav-btn2:active{
+    background-color: #F4511E !important;
+    color: black !important;
+}
+.nav-btn3{
+    background-color: white !important;
+    color: black;
+    padding: 5px 19px;
+    border-radius: 0 8px 8px 0;
+    border: 1px solid gray;
+    font-weight: 500;
+
+
+}
+.nav-btn3:hover{
+    background-color: #F4511E !important;
+    color: white !important;
+}
+.nav-btn3:active{
+    background-color: #F4511E !important;
+    color: black !important;
+}
+
+.long{
+    width: 50%;
+    padding: 70px 0 1% 0;
+    /* height: 400px; */
+}
+.short{
+    padding:30% 0 1% 0 ;
+    /* height: 60px; */
+    width: 290px;
+    position: relative;
+    right: 25px;
+
+}
+.long-short{
+    padding: 0 1% 1% 1%;
+    width: 37%;
+
+    height: 75%;
+}
+.wide{
+    width:650px;
+    padding:0 0 1% 0 ;
+    height: 400px !important;
+
+}
+.search-h{
+    
+font-family: Inter;
+font-size: 40px;
+font-weight: 800;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 20px;
+
+}
+.search-p{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.search{
+    padding-top: 200px !important ;
+}
+.search-button{
+    background-color: #F4511E;
+    color: white;
+    padding: 10px 14px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+
+
+}
+.owner-p1{
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px 10px 40px 50px;
+    position: relative;
+    margin-top: -40px;
+    z-index: 30;
+    
+
+
+}
+.owner-p2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.profile{
+    width: 61px;
+    height: 61px;
+
+    border: 2px;
+
+}
+.overlay{
+    position: relative;
+    opacity: 30%;
+}
+.first-col{
+    background: #F4511E12;
+    /* width: 100%; */
+    height: 470px !important;
+
+}
+.dir{
+    display: flex;
+
+}
+.img{
+    display: flex;
+    justify-content: end;
+}
+.foot{
+    padding: 0 70px;
+}
+.logo2{
+    text-align: center;
+}
+
+.foot-content{
+    border-top: 3px solid #F4511E;
+}
+.foot-col1{
+    padding: 0 100px;
+    /* border-bottom: 1px solid #7BB9FC; */
+    
+    
+    
+}
+.buttom{
+    padding: 20px 0 ;
+    border-top: 1px solid #7BB9FC;
+    width: 950px;
+    margin: 0 90px;
+    
+    
+    
+}
+.but > p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+padding: 0 8px;
+}
+
+

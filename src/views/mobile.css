@@ -1,0 +1,484 @@
+@media only screen and (max-width: 600px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav-container{
+     
+            position: relative;
+    
+    }
+    .nav-container::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 73px;
+        width: 100%;
+        left: 0%;
+        border-bottom: 1px solid gray;
+    }
+    .intro-container{
+    background-image: url(./assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png);
+    height: 50rem !important;  
+     /* background-blend-mode: color-burn; */
+     /* width: 100vw; */
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     margin-top: -117px;
+     overflow: hidden !important;
+    
+     border-bottom: 1px solid gray;
+    }
+    
+    .link:hover{
+        text-decoration: none !important;
+        border-bottom: 3px solid white !important;
+    
+    }
+    .intro-content{
+       padding : 120px 0px 0 0px;
+       display: block !important;
+    
+      
+    }
+    .intro-text{
+        padding: 50px 0 0 25px !important;
+        color:white;
+       
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px !important;
+    font-weight: 500 !important;
+    line-height: 40px !important;
+    letter-spacing: -1px;
+    text-align: left !important;
+    
+    
+    }
+    .intro-img > img{
+        width: 450px;
+        margin: 0 0px !important;
+        padding-right:20px ;
+    }
+    .intro-field{
+        /* padding: 0 20px 0 0 !important; */
+        background-color: aliceblue;
+    }
+    .intro-inpute{
+        background-color:transparent !important;
+        padding: 0 !important;
+        border-radius: 10px;
+        width: 100% !important;
+        text-align: end;
+        
+    }
+    
+    .lala{
+        border-radius: 10px;
+        border: 1px solid gray;
+        width: max-content;
+        position: relative;
+        right: 20px;
+    }
+    
+   
+    .img-background{
+        border-radius: 10px;
+        padding: 7%;
+        box-shadow: 0px 12px 19px 0px #00000026;
+        margin:2% 20% 18% 20%;
+        justify-self: center;
+    
+    } 
+    .offer-container{
+        overflow: hidden;
+    }
+    .offer-h1 > p{
+        font-family: Inter;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+    }
+    .div{
+        position: relative;
+        padding: 0 !important;
+        right: 17px;
+        /* overflow: hidden; */
+    
+    }
+    .div::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 45px;
+        width: 40% !important;
+        left: 30px !important;
+        border-bottom: 3px solid red !important;
+    }
+    .offer-text{
+        font-family: Inter;
+    font-size: 15px !important;
+    font-weight: 600;
+    /* line-height: 35px; */
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+    }
+    .offer-textz{
+        font-family: Inter;
+        font-size: 15px !important;
+        font-weight: 600;
+    /* line-height: 35px; */
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 5%;
+    
+    }
+    .offer-textz >img{
+       width: 85px ;
+    
+    }
+
+    .cards{
+        box-shadow: 0px 34.06928634643555px 36.19861602783203px 0px #00000022;
+        position: relative;
+        left: 20px;
+    }
+    .card-h{
+        font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.6420748233795166px;
+    text-align: left;
+    
+    }
+    .card-p{
+        font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.6420748233795166px;
+    text-align: left;
+    
+    }
+    .card-p2{
+        font-family: DM Sans;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: -0.6420748233795166px;
+    text-align: left;
+    color: #F4511E;
+    
+    }
+    .props-nav{
+        border-radius: 10px !important;
+    }
+    .props > p{
+        position: relative;
+        font-family: Inter;
+        font-size: 20px !important;
+        font-weight: 600;
+        /* line-height: 35px; */
+        letter-spacing: 0em;
+    
+    }
+    .props > p::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 40px;
+        width: 30%;
+        left: 2%;
+        border-bottom: 3px solid red;
+    }
+    .props > button{
+       background-color: #F4511E;
+        padding: 0 5% !important;
+        border: none;
+        border-radius: 0 !important;
+        font-weight: lighter;
+    }
+    .nav-btn1{
+        border-radius: 10px;
+    }
+    .nav-btn{
+        background-color: white !important;
+        border-radius: none !important;
+        padding:7px 19px;
+        color: #F4511E;
+        font-weight: 500;
+        border: 1px solid gray;
+    
+    }
+    .nav-btn:hover{
+        background-color: #F4511E !important;
+        color: white !important;
+        
+    }
+    .nav-btn2{
+        background-color: white !important;
+        color: black;
+        padding: 5px 19px;
+        border-radius:  8px  0 0 8px ;
+        border: 1px solid gray;
+        font-weight: 500;
+    
+    }
+    .nav-btn2:hover{
+        background-color: #F4511E !important;
+        color: white !important;
+    }
+    .nav-btn2:active{
+        background-color: #F4511E !important;
+        color: black !important;
+    }
+    .nav-btn3{
+        background-color: white !important;
+        color: black;
+        padding: 5px 19px;
+        border-radius: 0 8px 8px 0;
+        border: 1px solid gray;
+        font-weight: 500;
+    
+    
+    }
+    .nav-btn3:hover{
+        background-color: #F4511E !important;
+        color: white !important;
+    }
+    .nav-btn3:active{
+        background-color: #F4511E !important;
+        color: black !important;
+    }
+    
+    .long{
+        width: 50%;
+        padding: 70px 0 1% 0;
+        /* height: 400px; */
+    }
+    .short{
+        padding:35% 0 1% 0 !important ;
+        /* height: 60px; */
+        width: 200px !important;
+        position: relative;
+        left: 7px !important;
+    
+    }
+    .long-short{
+        padding: 0 1% 1% 1%;
+        width: 37% !important;
+    
+        height: 85% !important;
+    }
+    .wide{
+        width:300px !important;
+        padding:0 0 20% 0 !important;
+    
+    }
+    .room-img{
+        padding: 0 10px !important;
+        position: relative;
+        right: 20px;
+    }
+    
+    .search-h{
+        
+    font-family: Inter;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    line-height: 34px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+    
+    }
+    .search-p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+    }
+    .search{
+        padding-top: 0 !important ;
+        position: relative;
+        bottom: 150px;
+    }
+    .search-button{
+        background-color: #F4511E;
+        color: white;
+        padding: 10px 14px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+    
+    
+    }
+    .owner-content{
+        width: fit-content;
+        height: 600px;
+    }
+    .owner-p1{
+        font-family: Inter;
+        font-size: 15px !important;
+        font-weight: 400;
+        line-height: 26px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 5px 0px 5px 0px !important;
+        position: relative;
+        left: 22px;
+        margin-top: -50px !important;
+        z-index: 30;
+        
+    
+    
+    }
+    .owner-p2{
+        font-family: Inter;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    
+    }
+    .profile{
+        width: 61px;
+        height: 61px;
+    
+        border: 2px;
+    
+    }
+    .overlay{
+        position: relative;
+        bottom: 25px;
+        opacity: 30%;
+        width: 30px;
+    }
+    .first-col{
+        background: #F4511E12;
+        /* width: 100%; */
+        height: 470px !important;
+    
+    }
+    .dir{
+        display: flex;
+    
+    }
+    .img{
+        position: relative;
+        bottom: 50px;
+        display: flex;
+        justify-content: end;
+    }
+    .content{
+        width: 494px;
+        height: 350px;
+        position: relative;
+        right: 2px;
+    }
+    .foot{
+        padding: 0 20px !important;
+    }
+    .logo2{
+        text-align: center;
+    }
+    
+    .foot-content{
+        border-top: 3px solid #F4511E;
+        height: 300px;
+        padding: 0 20px !important;
+    }
+    .log{
+        padding: 0 !important;
+        height: 10px;
+        position: relative;
+        top: 20px;
+    }
+    .log > h1{
+        padding: 0 !important;
+    }
+    .foot-second{
+        padding: 0 !important;
+        line-height: 15px;
+        position: relative;
+        bottom: 20px;
+    }
+    .foot-second > p{
+       
+        position: relative;
+        right:  20px;
+    }
+    .foot-sec > p{
+       margin-right: 8% !important;
+        position: relative;
+        line-height: 20px;
+        right:  20px;
+        font-size: 15px;
+    }
+    .foot-sec >p> span{
+       
+    margin-right: 3%;
+    }
+    .spann > span{
+        padding: 0 2%;
+    }
+    .spann{
+        padding-right: 2%;
+        position: relative;
+        right:  20px;
+    }
+    .spann > p{
+        padding:0 2% 0 2%;
+        
+    }
+   
+    .foot-col1{
+        padding: 0 0 !important;
+        /* border-bottom: 1px solid #7BB9FC; */
+        
+        
+        
+    }
+    .buttom{
+        padding: 20px 0 ;
+        border-top: 1px solid #7BB9FC;
+        width: 420px !important;
+        margin: 0 10px !important;
+        
+    }
+    .but > p{
+        font-family: Inter;
+    font-size: 6px !important;
+    font-weight: 600 !important;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 0 8px;
+    }
+    .last{
+        font-size: 6px !important;
+        font-weight: 700 !important;
+    }
+    
+    
+    
+    
+}
