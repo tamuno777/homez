@@ -1,7 +1,7 @@
 import React from 'react'
 import sitout from '../assets/sitout.png'
 import group1 from '../assets/group1.png'
-import group2 from '../assets/vector.png'
+import group2 from './vector.png'
 import group3 from '../assets/Vector (1).png'
 import group4 from '../assets/plant.png'
 import group5 from '../assets/shild.png'
