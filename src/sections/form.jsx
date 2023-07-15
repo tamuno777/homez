@@ -99,7 +99,7 @@ export default function Forms() {
         </Form.Group>
           </div>
             <div>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-3" >
             <Form.Label>Upload Photos </Form.Label>
 
             <div className="input-file-upload py-4 px-5"multiple={true}
