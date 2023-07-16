@@ -25,7 +25,7 @@ export default function Offer() {
       </div>
       <Row className='px-0 pb-3 '>
         <Col sm={12} lg={4}>
-          <img src={sitout} alt=""  />
+          <img src={sitout} alt="" className='off' />
         </Col>
         <Col sm={12} lg={8} className='py-5'>
           <Row className='px-5 '> 
