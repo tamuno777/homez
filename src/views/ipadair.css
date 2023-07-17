@@ -1,4 +1,4 @@
-@media only screen and (max-width: 413px) {
+@media only screen and (width: 820px) {
 
     *{
         margin: 0;
@@ -411,8 +411,8 @@
     
     }
     .owner-content{
-        width: 377px;
-        height: 600px;
+        width: 818px;
+        height: 650px;
         overflow: hidden !important;
     }
     .owner-p1{
@@ -471,8 +471,8 @@
         justify-content: end;
     }
     .content{
-        width: 480px;
-        height: 350px;
+        width: 814px;
+        height: 450px;
         position: relative;
         right: 2px;
     }
@@ -548,6 +548,7 @@
         width: 320px !important;
         margin: 0 10px !important;
         overflow: hidden !important;
+        /* height: 100px !important; */
         
     }
     .but > p{
